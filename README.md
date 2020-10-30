@@ -1,24 +1,18 @@
-# README
+# Rails Tutorial Log
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 第一章S
 
-Things you may want to cover:
+## 第二章
 
-* Ruby version
+## 第三章
 
-* System dependencies
+### 2020.10.29
 
-* Configuration
+表示ができなかったが以下のコードを削除すれば直った。
 
-* Database creation
+`/app/views/layouts/application.html.erb`
 
-* Database initialization
+```html
+<%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
